@@ -89,3 +89,12 @@ export const FEATURED_COURSES = [
     image: "/images/feature/startup.png",
   },
 ] as const;
+
+export const LEARNING_PATHS = [
+  { name: "Design", icon: "/images/vector_images/design.png" },
+  { name: "Development", icon: "/images/vector_images/development.png" },
+  { name: "IT & Software", icon: "/images/vector_images/it-software.png" },
+  { name: "Business", icon: "/images/vector_images/business.png" },
+  { name: "Marketing", icon: "/images/vector_images/marketing.png" },
+  { name: "Photography", icon: "/images/vector_images/photography.png" },
+] as const;
