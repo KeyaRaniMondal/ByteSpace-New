@@ -17,3 +17,24 @@ export const PARTNERS = [
   { name: "Quadrant", icon: "/images/vector_images/quadrant.png" },
   { name: "Orbitly", icon: "/images/vector_images/orbitly.png" },
 ] as const;
+
+export const FEATURED_CATEGORIES = [
+  "Featured",
+  "Music",
+  "Drawing & Painting",
+  "Marketing",
+  "Animation",
+  "Social Media",
+  "UI/UX Design",
+  "Creative Marketing",
+  "Digital Illustration",
+  "Film & Video",
+  "Crafts",
+  "Freelance & Entrepreneurship",
+  "Graphic Design",
+  "Photography",
+  "Productivity",
+  "Web Development",
+  "Data Science",
+  "Cooking",
+] as const;

@@ -35,7 +35,6 @@ function PaperPlane({ className = "" }: { className?: string }) {
   );
 }
 
-// const AVATARS = [
 
 export default function Hero() {
   return (
