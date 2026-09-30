@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <header className="absolute inset-x-0 top-0 z-50">
-      <nav className="mx-auto flex h-[120px] w-[1440px] items-center justify-between px-5 md:px-8">
+      <nav className="mx-auto flex h-[72px] w-full max-w-[1440px] items-center justify-between px-5 md:px-8">
         <Logo />
 
         {/* Desktop links */}

@@ -57,7 +57,7 @@ export default function Growth() {
 
           {/* visual collage */}
           <div className="relative mx-auto w-full max-w-[440px]">
-            <div className="relative z-10 w-[220px] rounded-2xl border border-slate-200 bg-white p-2 shadow-xl">
+            <div className="relative z-10 w-[180px] rounded-2xl border border-slate-200 bg-white p-2 shadow-xl sm:w-[220px]">
               <Image
                 src="/images/feature/figma.png"
                 alt="Learn Figma course"
@@ -87,10 +87,10 @@ export default function Growth() {
               alt="Student with laptop"
               width={300}
               height={360}
-              className="relative z-20 -mt-24 ml-auto h-[300px] w-[250px] object-contain drop-shadow-2xl"
+              className="relative z-20 -mt-24 ml-auto h-[260px] w-[210px] object-contain drop-shadow-2xl sm:h-[300px] sm:w-[250px]"
             />
 
-            <div className="absolute bottom-16 right-0 z-30 rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-xl">
+            <div className="absolute bottom-16 right-0 z-30 max-w-[calc(100%-1rem)] rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-xl">
               <p className="text-[10px] text-slate-500">Learning Progress</p>
               <p className="text-2xl font-extrabold text-slate-900">55%</p>
               <div className="mt-1.5 h-1.5 w-28 overflow-hidden rounded-full bg-slate-100">
@@ -130,10 +130,10 @@ export default function Growth() {
               alt="Creator with tablet"
               width={300}
               height={380}
-              className="relative z-20 mx-auto h-[340px] w-[280px] object-contain drop-shadow-2xl"
+              className="relative z-20 mx-auto h-[300px] w-[240px] object-contain drop-shadow-2xl sm:h-[340px] sm:w-[280px]"
             />
 
-            <div className="absolute bottom-8 right-2 z-30 rounded-xl border border-slate-100 bg-white px-3 py-2 shadow-xl">
+            <div className="absolute bottom-8 right-0 z-30 max-w-[calc(100%-1rem)] rounded-xl border border-slate-100 bg-white px-3 py-2 shadow-xl sm:right-2">
               <p className="text-[11px] font-bold text-slate-900">
                 Happy Students
               </p>

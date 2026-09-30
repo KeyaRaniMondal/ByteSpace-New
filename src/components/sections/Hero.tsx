@@ -87,7 +87,7 @@ export default function Hero() {
             className="absolute bottom-0 left-1/2 h-[78%] w-[115%] max-w-[760px] -translate-x-1/2 rounded-t-full bg-[#D4F800] sm:w-[100%]"
           />
 
-          <div className="relative z-10 h-full w-[340px] sm:w-[420px] md:w-[460px]">
+          <div className="relative z-10 h-full w-[min(340px,78vw)] sm:w-[420px] md:w-[460px]">
             <Image
               src="/images/hero.png"
               alt="Happy student with laptop wearing headphones"

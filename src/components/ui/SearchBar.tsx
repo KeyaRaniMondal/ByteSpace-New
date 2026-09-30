@@ -22,7 +22,7 @@ export default function SearchBar({
       }}
       className="flex w-full max-w-[520px] items-center gap-2"
     >
-      <label className="flex h-[48px] flex-1 items-center gap-2 rounded-full bg-white px-5 shadow-lg">
+      <label className="flex h-[48px] min-w-0 flex-1 items-center gap-2 rounded-full bg-white px-4 shadow-lg sm:px-5">
         <svg
           width="18"
           height="18"
@@ -44,7 +44,7 @@ export default function SearchBar({
       </label>
       <button
         type="submit"
-        className="h-[48px] shrink-0 rounded-full bg-[#D4F800] px-7 text-sm font-semibold text-slate-900 transition hover:brightness-95 active:scale-95"
+        className="h-[48px] shrink-0 rounded-full bg-[#D4F800] px-5 text-sm font-semibold text-slate-900 transition hover:brightness-95 active:scale-95 sm:px-7"
       >
         Search
       </button>

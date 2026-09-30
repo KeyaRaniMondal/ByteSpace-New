@@ -1,10 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
 type Props = {
-  mode: "Create an account" | "login";
+  mode: "signup" | "login";
 };
 
 export default function AuthForm({ mode }: Props) {
@@ -103,14 +104,26 @@ export default function AuthForm({ mode }: Props) {
               aria-label="Sign in with Facebook"
               className="grid h-14 w-14 place-items-center rounded-2xl border border-slate-200 bg-white transition hover:bg-slate-50 active:scale-95"
             >
-              <img src="images/facebook.png" alt="Facebook" />
+              <Image
+                src="/images/facebook.png"
+                alt="Facebook"
+                width={22}
+                height={22}
+                className="h-[22px] w-[22px] object-contain"
+              />
             </button>
             <button
               type="button"
               aria-label="Sign in with Google"
               className="grid h-14 w-14 place-items-center rounded-2xl border border-slate-200 bg-white transition hover:bg-slate-50 active:scale-95"
             >
-              <img src="images/google.png" alt="Google" />
+              <Image
+                src="/images/google.png"
+                alt="Google"
+                width={22}
+                height={22}
+                className="h-[22px] w-[22px] object-contain"
+              />
             </button>
           </div>
         </>

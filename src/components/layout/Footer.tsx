@@ -33,7 +33,7 @@ export default function Footer() {
             </p>
             <form
               onSubmit={(e) => e.preventDefault()}
-              className="mt-5 flex max-w-md items-center gap-3"
+              className="mt-5 flex max-w-md items-center gap-2 sm:gap-3"
             >
               <input
                 type="email"
@@ -41,11 +41,11 @@ export default function Footer() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="h-[46px] w-full rounded-full border border-slate-200 bg-white px-5 text-sm text-slate-800 outline-none placeholder:text-slate-400 focus:border-slate-400"
+                className="h-[46px] w-full min-w-0 rounded-full border border-slate-200 bg-white px-5 text-sm text-slate-800 outline-none placeholder:text-slate-400 focus:border-slate-400"
               />
               <button
                 type="submit"
-                className="h-[46px] shrink-0 rounded-full bg-[#D4F800] px-7 text-sm font-semibold text-slate-900 transition hover:brightness-95 active:scale-95"
+                className="h-[46px] shrink-0 rounded-full bg-[#D4F800] px-5 text-sm font-semibold text-slate-900 transition hover:brightness-95 active:scale-95 sm:px-7"
               >
                 Search
               </button>
