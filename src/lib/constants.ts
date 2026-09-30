@@ -135,3 +135,39 @@ export const TESTIMONIALS = [
     image: "/images/alex.png",
   },
 ] as const;
+
+export const FOOTER_COLUMNS = [
+  {
+    links: [
+      "Featured Courses",
+      "Featured Categories",
+      "Business",
+      "IT",
+      "Design",
+    ],
+  },
+  {
+    links: [
+      "Development",
+      "Marketing",
+      "Photography",
+      "Finance",
+      "Sport",
+    ],
+  },
+  {
+    links: [
+      "Become a Creator",
+      "Affiliate Program",
+      "Contact",
+      "Help",
+      "About",
+    ],
+  },
+] as const;
+
+export const FOOTER_LEGAL = [
+  "Privacy Policy",
+  "Terms of Service",
+  "Cookies Settings",
+] as const;
