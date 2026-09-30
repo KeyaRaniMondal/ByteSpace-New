@@ -65,7 +65,7 @@ export default function CreatorCta() {
           course on the ByteSpace Course Library.
         </p>
         <Link
-          href="#join"
+          href="/signup"
           className="mt-7 inline-block rounded-full bg-[#D4F800] px-7 py-2.5 text-[13px] font-semibold text-slate-900 transition hover:brightness-95 active:scale-95"
         >
           Join as Creator

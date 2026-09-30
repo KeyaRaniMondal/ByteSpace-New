@@ -43,10 +43,10 @@ export default function Navbar() {
 
         {/* Desktop actions */}
         <div className="hidden items-center gap-5 text-[14px] font-medium text-white md:flex">
-          <Link href="#signin" className="text-white/90 hover:text-white">
+          <Link href="/login" className="text-white/90 hover:text-white">
             Sign In
           </Link>
-          <Link href="#join" className="text-white/90 hover:text-white">
+          <Link href="/signup" className="text-white/90 hover:text-white">
             Join Us
           </Link>
           <button
@@ -121,13 +121,13 @@ export default function Navbar() {
           </ul>
           <div className="mt-3 flex gap-2 border-t border-slate-100 pt-3">
             <Link
-              href="#signin"
+              href="/login"
               className="flex-1 rounded-full border border-slate-200 px-4 py-2.5 text-center text-sm font-semibold"
             >
               Sign In
             </Link>
             <Link
-              href="#join"
+              href="/signup"
               className="flex-1 rounded-full bg-[#0F38FF] px-4 py-2.5 text-center text-sm font-semibold text-white"
             >
               Join Us
